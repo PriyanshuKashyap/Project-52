@@ -7,6 +7,10 @@
     font-family: sans-serif;
     font-weight: 400;
     color: white;
+    width: 110%;
+}
+.header {
+    position: top;
 }
 body{
     margin: 0px;
@@ -28,7 +32,9 @@ a:visited{
 }
 
 .bodyimg{
-    position: absolute;
+    /*display: flex;*/
+    /*position: absolute;*/
+    position: top;
 }
 .bodyimg p{
     color:#f7f2f2;
@@ -45,9 +51,14 @@ a:visited{
     font-size: 30px;
     width: 1600px;
     position: absolute;
-    top:40%;
-    left:80%;
+    top:45%;
+    /*left:80%;*/
     transform: translate(-40%, -40%);
+    /*position: left;*/
+    left:45%;
+}
+.bodyimg img {
+    width: 112.1%;
 }
 .grid{
     display: flex;
